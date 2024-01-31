@@ -1,0 +1,626 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (prefers-reduced-motion: reduce){
+    img {
+        animation: none;
+    }
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+main{
+    background-image: url(afbeeldingen/achtergrondbehang.jpg);
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2mm;
+    margin-left: 8mm;
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5mm;
+    margin-left: 8mm;
+    width: 80%;
+}
+
+section{
+    background-image: url(afbeeldingen/schijnwerper_icoon.png);
+    background-size: 50mm;
+    padding: 3mm;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+section:nth-child(4){
+    background-image: url(afbeeldingen/plant_icoon.png);
+    background-size: 60mm;
+}
+
+section:nth-child(5){
+    background-image: url(afbeeldingen/handdruk_icoon.png);
+    background-size: 65mm;
+    padding-top: 0;
+}
+
+ul li:last-child{
+    margin-bottom: 8mm;
+}
+
+/* HEADER */
+
+nav{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 17mm;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(afbeeldingen/achtergrondheader.png);
+    background-size: 100mm;
+}
+
+header img{
+    margin-top: 2mm;
+    width: 13mm;
+    height: 13mm;
+    margin-left: 2.5mm;
+}
+
+header img:hover{
+    width: 13.5mm;
+    height: 13.5mm;
+}
+
+header img:nth-child(2){
+    margin-top: 2.5mm;
+    margin-right: 1mm;
+    margin-left: 0;
+}
+
+
+/* HOME */
+#index section{
+    padding: 0;
+}
+
+
+#index main img{
+    width: 100%;
+    height: 10mm;
+}
+
+#index main>section{
+    height: 74mm;
+    display: flex;
+    width: 100%;
+    flex-direction: column;   
+    align-content: space-around;
+    background-image: url(afbeeldingen/banner1.png);
+    background-size: 100%;
+}
+
+#index main>section:hover{
+    background-size: 101%;
+}
+
+#index main>div:hover{
+    height: 74mm;
+    display: flex;
+    width: 100%;
+    flex-direction: column;   
+    align-content: space-around;
+    background-image: url(afbeeldingen/banner1.png);
+    background-size: 100%;
+}
+
+#index main>section:nth-child(2){
+    height: 63.2mm;
+    background-image: url(afbeeldingen/banner2.png);
+}
+
+#index main>section:nth-child(3){
+    height: 86mm;
+    background-image: url(afbeeldingen/banner3.png);
+    justify-content: space-between;
+}
+
+#index main>section:nth-child(3)>img:nth-child(2){
+    margin-top: 4mm;
+    margin-bottom: 4mm;
+}
+
+#index main>section:nth-child(3)>img:nth-child(4){
+    margin-top: -3mm;
+    width: 25mm;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.7;
+}
+
+#index main p{
+    margin-left: auto;
+    margin-right: 2mm;
+    margin-top: 32mm;
+    display: flex;
+    width: 40%;
+    font-size: 3.5mm;
+    color: #fffd78;
+}
+
+#index main section a{
+   width: 5mm;
+   height: 5mm; 
+   margin-left: auto;
+   margin-top: 2mm;
+   margin-right: 4mm;
+}
+
+#index main section a{
+    width: 5mm;
+    height: 5mm; 
+    margin-left: auto;
+    margin-top: 2mm;
+    margin-right: 4mm;
+ }
+
+
+#index main a img{
+    height: 5mm; 
+ }
+
+ #index main>section:nth-child(2) a{
+    margin-top: 5.5mm;
+ }
+
+ #index main>section:nth-child(2) p{
+    margin-left: 3mm;
+    margin-top: 29mm;
+    display: flex;
+    width: 77%;
+    color: black;
+}
+
+#index main section div{
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    flex-direction: row;
+}
+
+#index main section div img{
+    display: inline-block;
+    width: 60mm;
+    height: 100%;
+    margin-left: 5mm;
+}
+
+#index h2{
+    width: 0;
+    height: 0;
+    font-size: 0;
+    margin: 0;
+}
+
+
+/* MENU */
+
+#menu header{
+    height: 0;
+}
+
+#menu footer{
+    height: 0;
+}
+
+#menu main{
+    background-image: url(afbeeldingen/Schermafbeelding2023-11-04om16.12.10.png);
+    background-size: 100%;
+    background-color: black;
+    height: 176.5mm;
+    display: flex;
+    flex-direction: row;
+}
+
+#menu main section{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+}
+
+#menu main>a{
+    width: 30%;
+}
+
+#menu main>a div{
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu main img{
+    display: flex;
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: 5mm;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: flex-end;
+    opacity: 0.6;
+}
+
+#menu a div img{
+    opacity: 1;
+    width: 10%;
+    height: 20%;
+    margin: 0;
+    align-self: flex-start;
+}
+
+#menu nav div{
+    margin-top: 2mm;
+    width: 121%;
+    padding: 3mm;
+    height: auto;
+}
+
+#menu nav div:hover{
+    background-image: url(afbeeldingen/achtergrondje_stof.png);
+}
+
+#menu a{
+    color: black;
+    text-decoration: none;
+}
+
+#menu a:first-child{
+    margin-top: 7mm;
+}
+
+#menu li{
+    list-style: none;
+    margin-top: 5mm;
+}
+
+
+/* WAAROM KILO */
+
+#kilo main h2{
+    font-size: 0;
+}
+
+#kilo main div:nth-child(1) img{
+    width: 100%;
+    height: 10mm;
+}
+
+#kilo main>img{
+    width: 100%;
+    height: 10mm;
+    display: flex;
+}
+
+#kilo main>section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15mm;
+}
+
+#kilo main>section:nth-child(5){
+    margin-bottom: 20mm;
+}
+
+#kilo main>div:nth-child(1){
+    margin-top: 0;
+    height: 74mm;
+    display: flex;
+    width: 100%;
+    flex-direction: column;   
+    align-content: space-around;
+    background-image: url(afbeeldingen/waarom_kilo.png);
+    background-size: 100%;
+    padding: 0;
+}
+
+#kilo main>div{
+    padding-top: 8mm;
+    margin-top: 15mm;
+    background-size: 75mm;
+    background-repeat: no-repeat;
+}
+
+#kilo main>section{
+    padding-top: 8mm;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15mm;
+    background-image: url(afbeeldingen/markups.png);
+    background-size: 75mm;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#kilo main>section:nth-child(4){
+    margin-top: 12mm;
+}
+
+#kilo main>section:nth-child(5){
+    background-image: url(afbeeldingen/duurzaam.png);
+    background-position: top right;
+}
+
+#kilo main>section:nth-child(6){
+    background-image: url(afbeeldingen/schatten.png);
+}
+
+#kilo main>section:nth-child(7){
+    background-image: url(afbeeldingen/hergebruik.png);
+    background-position: top right;
+    background-size: 80mm;
+    padding-top: 7mm;
+    margin-bottom: 20mm;
+}
+
+#kilo main>section:nth-child(7){
+    margin-bottom: 10mm;
+}
+
+#kilo main section img {
+    width: 350mm;
+    height: 50mm;
+}
+
+#kilo p {
+    font-size: 3.5mm;
+    text-align: center;
+}
+
+#kilo main>section p{
+    font-size: 3.5mm;
+    margin-left: 5mm;
+    text-align: justify;
+}
+
+#kilo main>section:nth-child(odd) p{
+    margin-right: 5mm;
+    margin-left: 0;
+}
+
+#kilo main>p{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#kilo main>a{
+    text-decoration: none;
+    color: white;
+
+}
+
+#kilo footer div p{
+    text-align: left;
+}
+
+
+#kilo footer div:nth-child(2) p{
+    text-align: right;
+}
+
+
+/* ONZE LIEVE GROENE STAD */
+
+#groen section:nth-child(2){
+    background-image: none;
+    background-size: 50mm;
+    padding: 5mm;
+    margin-top: 5mm;
+    margin-bottom: 7mm;
+}
+
+#groen main div:nth-child(1) img{
+    width: 100%;
+    height: 10mm;
+}
+
+#groen main>div:nth-child(1){
+    margin-top: 0;
+    height: 57mm;
+    display: flex;
+    width: 100%;
+    flex-direction: column;   
+    align-content: space-around;
+    background-image: url(afbeeldingen/onzelievegroenestad.png);
+    background-size: 100%;
+}
+
+#groen main>img{
+    width: 100%;
+    height: 10mm;
+    display: flex;
+}
+
+#groen main p{
+    font-size: 3.5mm;
+    text-align: justify;
+}
+
+#groen main p:first-child{
+    margin-top: 8mm;
+    margin-bottom: 10mm;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#groen main>p{
+    margin-top: 8mm;
+    margin-bottom: 10mm;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* FAVORIETEN */
+
+#favo body{
+    z-index: 1;
+    position: relative;
+}
+
+#favo main{
+    z-index: 2;
+    position: relative;
+}
+
+#favo main>img{
+    width: 100%;
+    height: 10mm;
+    display: flex;
+}
+
+#favo main>img:nth-child(3){
+   height: 16mm;
+   margin-top: -4mm;
+   z-index: 4;
+   position: relative;
+}
+
+#favo main div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    z-index: 3;
+    position: relative;
+    margin-top: 1.3mm;
+}
+
+
+#favo main div:nth-child(4){
+    margin-top: -10mm;
+}
+
+#favo main div:last-child{
+    margin-bottom: 10mm;
+}
+
+#favo main div img{
+    width: 32%;
+    opacity: 0.85;
+}
+
+#favo main div img:hover{
+    opacity: 1;
+}
+
+#favo main p{
+    font-size: 3.5mm;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10mm;
+}
+
+/* FOOTER */
+
+footer{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(afbeeldingen/achtergrondheader.png);
+    background-size: 100mm;
+}
+
+footer div{
+    display: flex;
+}
+
+footer>div:nth-child(1){
+    margin-left: 5mm;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+footer>div:nth-child(1){
+    margin-left: 5mm;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+footer>div:nth-child(2){
+    background-image: url(afbeeldingen/Locatieicoontje.png);
+    background-size: 12mm;
+    background-repeat: no-repeat;
+    background-position: top right;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 5mm;
+    margin-left: auto;
+    margin-top: 5mm;
+    margin-bottom: 5mm;
+    padding-bottom: 3mm;
+}
+
+footer img{
+    width: 5mm;
+    height: 5mm;
+    margin-top: 4mm;
+    opacity: 0.7;
+}
+
+
+footer div div:nth-child(3) img{
+    width: 6.5mm;
+    margin-left: -0.81mm;
+}
+
+footer div p{
+    margin-top: 4mm;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    opacity: 0.7;
+}
+
+footer a{
+    text-decoration: none;
+    color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    align-self: center;
+    margin-left: 3mm;
+    margin-top: 4mm;
+}
